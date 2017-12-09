@@ -21,6 +21,7 @@ $(document).ready(function () {
         StartGame();
     });
 
+
     function StartGame() {
         $('.start-game-window').hide('slow');
         $('.game-window').show('slow');
@@ -47,7 +48,9 @@ $(document).ready(function () {
         }
 
        Run();
+
     }
+
 
     function RandomizeOptions(ul) {
         //var ul = document.querySelector('ul');
